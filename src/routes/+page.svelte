@@ -19,8 +19,9 @@
 </div>
 <main>
 		<section class="intro">		
-			<h1>Welcome to the cutting edge of gametech with Amazastrophic CORP</h1>
+			<h1>Welcome to the cutting edge of gametech with</h1>
 		<img src={amazacorp} alt="Amazastrophic CORP" class="logo"/>
+		<h1>Amazastrophic CORP</h1>
 		</section>
 		<section class="intro">
 			<h1>Check out our metaverse and start building:</h1>
@@ -39,7 +40,7 @@
 			<p>By combining our passion for gaming with our excitment for cutting-edge AI and blockchain technology, <strong class="highlight">Amazastrophic</strong> is poised to transform the metaverse landscape, delivering unparalleled gaming experiences and empowering players to shape the future of their virtual worlds.</p>
 			<h2>Meet the Founders:</h2>
 			<p>Diamond elo gamers and WoW guild leaders, our founders (<a href="https://twitter.com/eckertanthony">@eckertanthony</a> & <a href="https://twitter.com/TRASHENSTEIN">@TRASHENSTEIN</a>) are on a mission to revitalize the massively multiplayer gaming world.</p>
-			<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+			<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 			<h1>
 			Private Placement Offering &
 			</h1>
@@ -49,7 +50,7 @@
 		    </p>
 			<p>This investment opportunity is limited to accredited investors. As defined by Rule 506(c) of Regulation D, accredited investors must meet certain income or net worth criteria. If you're unsure about your status, we encourage you to consult with your financial advisor.
 			</p>
-			<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+			<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 			<h1 id="updated-risk-disclosure-">Risk Disclosure</h1>
 			<p>Investing in a high-tech startup, such as Amazastrophic, the initial builders of Sage Towers, carries inherent risks. Potential investors need to be aware of these risks and make informed decisions. Below, we outline the potential risks associated with investing in Amazastrophic:</p>
 			<h2 id="market-and-competition-">Market and Competition:</h2>
@@ -69,7 +70,7 @@
 			<h2 id="intellectual-property-risks-">Intellectual Property Risks:</h2>
 			<p>While we strive to protect our intellectual property rights, there may be instances of unauthorized use, which could negatively impact our competitive position and business.</p>
 			<p><em>By understanding these risks, potential investors can make more informed decisions about their involvement with Amazastrophic and the Sage Towers project. We remain committed to addressing these risks diligently and striving towards our vision of revolutionizing the metaverse gaming experience and creating self-sustaining, player-driven organizations.</em></p>
-			<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+			<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 			<h1 id="business-plan">Business Plan</h1>
 			<h2 id="i-executive-summary">I. Executive Summary</h2>
 			<p>Amazastrophic is a visionary tech startup dedicated to revolutionizing the metaverse gaming experience by developing a modular blockchain platform that enables metaverses to transition into self-sustaining, player-driven organizations, ultimately creating long-term Decentralized Autonomous Organizations (DAOs). Our mission is to empower players and communities by fostering a decentralized, immersive, and engaging gaming environment.</p>
@@ -116,7 +117,7 @@
 			<p>Monitor and adapt to changing regulations and legal requirements to ensure compliance and mitigate potential risks.</p>
 			<p>By following this business plan, Amazastrophic aims to achieve its vision of revolutionizing the metaverse gaming experience and creating self-sustaining, player-driven organizations that empower players and communities to shape the future of their virtual worlds.</p>
 		</section>
-		<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+		<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 		<h1 id="fundraising-goals">Fundraising Goals</h1>
 		<p>In order to bring our vision to life and set the stage for sustainable growth, we are currently raising funds. Our goal is to secure a total investment of $2,500,000 which will provide us with a comfortable runway of five years based on our projected expenses. We believe that will allow us to transition our project to full DAO</p>
 		<h2 id="development-">Development:</h2>
@@ -125,7 +126,7 @@
 		<p>As we navigate the complex landscape of game development and blockchain technology, legal support is critical to ensure that we are compliant with all relevant laws and regulations.</p>
 		<h2 id="community-">Community:</h2>
 		<p>We are committed to building a dedicated community of players who will shape the future of our metaverse. Your investment will enable us to foster this community and provide the necessary support.</p>
-		<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+		<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 	    <h1 id="disclaimer-">Disclaimer</h1>
 		<h2 id="forward-looking-statements">Forward-Looking Statements:</h2>
 		<p>This website may contain forward-looking statements that reflect our current expectations and projections about Amazastrophic&#39;s future results, performance, prospects, and opportunities. These forward-looking statements are based on information currently available to us and are subject to a number of risks, uncertainties, and other factors that could cause our actual results, performance, prospects, or opportunities to differ materially from those expressed in, or implied by, these forward-looking statements. Actual results may differ significantly from those stated or implied in forward-looking statements due to factors such as changes in the regulatory environment, fluctuations in the market, and the performance of our products. These forward-looking statements are subject to the &#39;safe harbor&#39; provisions of the Private Securities Litigation Reform Act of 1995, which limits potential liabilities related to such statements.</p>
@@ -139,7 +140,7 @@
 		<p>If Amazastrophic ever offers any securities for sale, such offers would be private placements, exempt from registration under the Securities Act of 1933 pursuant to Rule 506(c) of Regulation D. Such offers would only be made in compliance with applicable state and federal securities laws and would be available only to qualified accredited investors. Any such offer would be made only through appropriate disclosure documents and only in jurisdictions where it is lawfully permitted.</p>
 		<h2 id="state-securities-and-blue-sky-laws">State Securities and &#39;Blue Sky&#39; Laws:</h2>
 		<p>Offers and sales of securities by Amazastrophic will only be conducted in compliance with state securities or &#39;Blue Sky&#39; laws to the extent applicable, and investors are advised to become aware of and understand these laws before investing.</p>
-		<h1>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</h1>
+		<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 		<footer>
 			<p>Interested in investing? <a href="mailto:cs@amazastrophic.com">Contact us</a> to learn more.</p>
 			<div class="socials"><a href="https://discord.gg/sagetowers">Discord</a></div>
@@ -163,7 +164,7 @@
 		height: 100%;
 	}
 		main {
-			max-width: 800px;
+			max-width: 600px;
 			margin: 0 auto;
 			padding: 1em;
 			background-color: hsla(0, 0%, 23%, 0.961);
@@ -172,12 +173,12 @@
 	
 		.intro {
 			text-align: center;
-			padding: 2em 0;
+		    padding: 0.3rem;
 			color: white;
 		}
 	
 		.welcome-image {
-			max-width: 70%;
+			max-width: 50%;
 			height: auto;
 			margin-bottom: 1em;
 		}
@@ -189,7 +190,7 @@
 		}
 
 		.logo {
-			width: 210px;
+			width: 125px;
 			transition: filter 0.3s ease-in-out;
 		}
 		.logo:hover {
