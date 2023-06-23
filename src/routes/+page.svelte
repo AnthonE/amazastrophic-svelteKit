@@ -14,14 +14,15 @@
 	<meta name="keywords" content="Metaverse, Multiplayer, Unity, Gaming, OpenAI, AI NPCs, Blockchain, Sage Towers, GameTech, Amazastrophic, LLM, Stable Diffusion, Living NPC">
 	<meta name="author" content="Amazastrophic CORP">
 	<meta name="robots" content="index, follow">
+	<meta name="image" content="https://storage.fleek-internal.com/94da0b0e-3d2c-46dc-a94c-df68eb5eec1b-bucket/Amazastrophic/logosmallamzsage.png">
 	<meta name="og:title" content="Amazastrophic CORP- AI Metaverse Blockchain">
 	<meta name="og:description" content="Amazastrophic CORP is building an immersive multiplayer Unity metaverse, utilizes state-of-the-art Language Learning Models such as OpenAI to create lifelike NPCs. Experience a dynamic world shaped by the permanence of blockchain. Join the next step of game tech today.">
-	<meta name="og:image" content="https://sagetowers.infura-ipfs.io/ipfs/bafybeif4oz5ijq6clokxtqyugw4ssnj5ssadgyvjdh6v7m2nr7ceds4byu">
+	<meta name="og:image" content="https://storage.fleek-internal.com/94da0b0e-3d2c-46dc-a94c-df68eb5eec1b-bucket/Amazastrophic/logosmallamzsage.png">
 	<meta name="og:url" content="https://amazacorp.com">
 	<meta name="og:site_name" content="Amazastrophic CORP">
 	<meta name="og:type" content="website">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://sagetowers.infura-ipfs.io/ipfs/bafybeif4oz5ijq6clokxtqyugw4ssnj5ssadgyvjdh6v7m2nr7ceds4byu">
+	<meta name="twitter:image" content="https://storage.fleek-internal.com/94da0b0e-3d2c-46dc-a94c-df68eb5eec1b-bucket/Amazastrophic/logosmallamzsage.png">
 	<meta name="twitter:title" content="Amazastrophic CORP- AI Metaverse Blockchain">
 	<meta name="twitter:description" content="Amazastrophic CORP is building an immersive multiplayer Unity metaverse, utilizes state-of-the-art Language Learning Models such as OpenAI to create lifelike NPCs. Experience a dynamic world shaped by the permanence of blockchain. Join the next step of game tech today.">
 </svelte:head>
