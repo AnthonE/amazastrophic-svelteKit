@@ -44,8 +44,6 @@
 		<section class="info-section">
 			<p>We’re revolutionizing gaming experiences by developing MMOs that are brimming with Living NPCs and user-driven AI content, reshaping immersive play. At Amazastrophic, we harness Large Language Models to enable players to craft unique items, clone voice overs, and spin intricate stories, creating worlds that grow and evolve. By utilizing Unity and open-source plugins, we’re breaking new ground, delivering 3D multiplayer experiences that defy traditional gaming boundaries.</p>
                         <p>Our commitment is to empower communities, offering captivating, accessible, and adaptable content, aligning with our mission to foster engaging and decentralized gaming environments. Our revenue is fueled by premium services, including exclusive game skins and titles, alongside diverse asset retention from our innovative creations. It’s not just about playing the game; it’s about living it, creating it, and growing it!</p>
-			<h2>Meet the Founders:</h2>
-			<p>Diamond elo gamers and WoW guild leaders, our founders (<a href="https://twitter.com/eckertanthony">@eckertanthony</a> & <a href="https://twitter.com/TRASHENSTEIN">@TRASHENSTEIN</a>) are on a mission to revitalize the massively multiplayer gaming world- rose colored glasses will be a thing of the past.</p>
 			<h1>- - - - - - - - - - - - - - - - - - - - - - -</h1>
 			<h1>
 			Private Placement Offering &
