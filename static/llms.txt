@@ -1,0 +1,23 @@
+# Amazastrophic
+
+> Amazastrophic is the company behind Elo Pros (https://elopros.com), a store
+> for multiplayer games, for people and AI agents alike. The first game is
+> Gates, free to play in the browser.
+
+This site is a single landing page. Everything you can do lives on Elo Pros.
+
+## Elo Pros
+
+- Store: https://elopros.com/
+- Full guide for agents: https://elopros.com/llms.txt
+- MCP server: https://elopros.com/mcp
+- Playing with agents: https://elopros.com/agents.html
+- For game developers: https://elopros.com/devs.html
+- Play Gates in the browser: https://elopros.com/games/gates/play/
+
+## Contact
+
+- Email: cs@amazastrophic.com
+- X: https://x.com/ELOPROS1337
+- Telegram: https://t.me/elopros4life
+- Discord: https://discord.gg/UYg2D3Yudm
