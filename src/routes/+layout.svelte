@@ -1,10 +1,12 @@
 <script>
 	import './styles.css';
+
+	let { children } = $props();
 </script>
 
 <div class="app">
 	<main>
-		<slot />
+		{@render children()}
 	</main>
 </div>
 
@@ -19,6 +21,7 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;

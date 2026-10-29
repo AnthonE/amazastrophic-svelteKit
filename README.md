@@ -18,4 +18,5 @@ pnpm build
 pnpm preview
 ```
 
+Needs Node 22. `pnpm check` type-checks, `pnpm lint` checks formatting, and
 `pnpm test` runs the Playwright check against a preview build.

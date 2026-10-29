@@ -1,6 +1,7 @@
 <script>
-	import bgVideo from '$lib/images/front.mp4';
-	import amazacorp from '$lib/images/amazacorp.png';
+	import bgVideo from '#lib/images/gates-loop.mp4';
+	import bgPoster from '#lib/images/gates-poster.jpg';
+	import amazacorp from '#lib/images/amazacorp.png';
 
 	const site = 'https://www.amazastrophic.com';
 	const title = 'Amazastrophic · the company behind Elo Pros';
@@ -28,8 +29,8 @@
 	<meta name="twitter:image" content="{site}/og.png" />
 </svelte:head>
 
-<div id="background-video" aria-hidden="true">
-	<video autoplay loop muted playsinline src={bgVideo} />
+<div id="background-video" aria-hidden="true" style:background-image="url({bgPoster})">
+	<video autoplay loop muted playsinline poster={bgPoster} src={bgVideo}></video>
 </div>
 
 <div class="panel">
@@ -59,121 +60,14 @@
 		</p>
 	</section>
 
-	<hr />
-
-	<section class="legal">
-		<h2>For investors</h2>
-		<h3>Private Placement Offering &amp; Accredited Investors Only</h3>
-		<p>
-			Please be advised that the securities offered herein are private placements. They have not
-			been registered under the Securities Act of 1933, but are exempt under Rule 506(c) of
-			Regulation D.
-		</p>
-		<p>
-			This investment opportunity is limited to accredited investors. As defined by Rule 506(c) of
-			Regulation D, accredited investors must meet certain income or net worth criteria. If you're
-			unsure about your status, we encourage you to consult with your financial advisor.
-		</p>
-
-		<h3 id="risk-disclosure">Risk Disclosure</h3>
-		<p>
-			Investing in a high-tech startup, such as Amazastrophic, the company behind Elo Pros, carries
-			inherent risks. Potential investors need to be aware of these risks and make informed
-			decisions. Below, we outline the potential risks associated with investing in Amazastrophic:
-		</p>
-		<h4>Market and Competition</h4>
-		<p>
-			The gaming industry is not just highly competitive but also rapidly evolving. With numerous
-			established players and new startups entering the scene frequently, Amazastrophic faces the
-			challenge of differentiating itself and securing a meaningful market share. While we strive
-			for success, there is always a risk of not achieving our growth and market position targets
-			due to market dynamics, competitive pressure, or changes in user preferences.
-		</p>
-		<h4>Technological Complexity</h4>
-		<p>
-			Our work involves integrating cutting-edge technologies, such as large language model (LLM)
-			APIs and blockchain networks, which inherently carry the risk of developmental delays,
-			increased costs, or unforeseen challenges. These could impact the timelines and success of
-			our projects.
-		</p>
-		<h4>Financial Risks</h4>
-		<p>
-			Like any startup, there is a risk that we may not achieve profitability or generate
-			sufficient revenue to sustain our operations. Additionally, initial valuations might not
-			reflect the actual value of the company, especially in a volatile market. Investors must be
-			prepared for the possibility that they may not recoup their initial investment or achieve
-			their desired return.
-		</p>
-
-		<h3 id="disclaimer">Disclaimer</h3>
-		<h4>Forward-Looking Statements</h4>
-		<p>
-			This website may contain forward-looking statements that reflect our current expectations and
-			projections about Amazastrophic's future results, performance, prospects, and opportunities.
-			These forward-looking statements are based on information currently available to us and are
-			subject to a number of risks, uncertainties, and other factors that could cause our actual
-			results, performance, prospects, or opportunities to differ materially from those expressed
-			in, or implied by, these forward-looking statements. Actual results may differ significantly
-			from those stated or implied in forward-looking statements due to factors such as changes in
-			the regulatory environment, fluctuations in the market, and the performance of our products.
-			These forward-looking statements are subject to the 'safe harbor' provisions of the Private
-			Securities Litigation Reform Act of 1995, which limits potential liabilities related to such
-			statements.
-		</p>
-		<h4>Investment Disclaimer</h4>
-		<p>
-			The information provided on this website, or any content linked from this website, does not
-			constitute investment advice, financial advice, trading advice, or any other sort of advice,
-			and you should not treat any of the website's content as such. Amazastrophic does not
-			recommend that any cryptocurrency, security, or other investment should be bought, earned,
-			sold, or held by you. We strongly suggest conducting your own due diligence or consulting with
-			a qualified financial advisor before making any investment decisions.
-		</p>
-		<h4>Accuracy of Information</h4>
-		<p>
-			Amazastrophic strives to ensure that the information on this website is updated and correct.
-			However, we make no representations or warranties of any kind, express or implied, about the
-			completeness, accuracy, reliability, suitability, or availability concerning the website or
-			the information, products, services, or related graphics contained on the website for any
-			purpose. Any reliance you place on such information is strictly at your own risk.
-		</p>
-		<h4>Risk Statement</h4>
-		<p>
-			Investing in digital assets, such as the ones mentioned on this website, is risky and
-			speculative. Investors should understand that their capital is at risk and they may
-			potentially lose all of their investment. The digital assets' value and performance can be
-			highly volatile and could rapidly change. Past performance is not indicative of future
-			results.
-		</p>
-		<h4>Securities Disclosure</h4>
-		<p>
-			If Amazastrophic ever offers any securities for sale, such offers would be private
-			placements, exempt from registration under the Securities Act of 1933 pursuant to Rule 506(c)
-			of Regulation D. Such offers would only be made in compliance with applicable state and
-			federal securities laws and would be available only to qualified accredited investors. Any
-			such offer would be made only through appropriate disclosure documents and only in
-			jurisdictions where it is lawfully permitted.
-		</p>
-		<h4>State Securities and 'Blue Sky' Laws</h4>
-		<p>
-			Offers and sales of securities by Amazastrophic will only be conducted in compliance with
-			state securities or 'Blue Sky' laws to the extent applicable, and investors are advised to
-			become aware of and understand these laws before investing.
-		</p>
-	</section>
-
-	<hr />
-
 	<footer>
-		<p>
-			Interested in investing? <a href="mailto:cs@amazastrophic.com">Contact us</a> to learn more.
-		</p>
 		<nav class="socials" aria-label="Elo Pros elsewhere">
 			<a href="https://elopros.com">Elo Pros</a>
 			<a href="https://x.com/ELOPROS1337" rel="noopener noreferrer">X</a>
 			<a href="https://t.me/elopros4life" rel="noopener noreferrer">Telegram</a>
 			<a href="https://discord.gg/UYg2D3Yudm" rel="noopener noreferrer">Discord</a>
 		</nav>
+		<p class="contact"><a href="mailto:cs@amazastrophic.com">cs@amazastrophic.com</a></p>
 		<p class="copyright">© {year} Amazastrophic</p>
 	</footer>
 </div>
@@ -184,12 +78,19 @@
 		inset: 0;
 		z-index: -1;
 		overflow: hidden;
+		background: center / cover no-repeat;
 	}
 
 	#background-video video {
 		object-fit: cover;
 		width: 100%;
 		height: 100%;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#background-video video {
+			display: none;
+		}
 	}
 
 	.panel {
@@ -200,7 +101,6 @@
 		box-sizing: border-box;
 		background-color: hsla(0, 0%, 12%, 0.92);
 		border-radius: 8px;
-		color: #eee;
 	}
 
 	section {
@@ -222,7 +122,6 @@
 
 	.tagline {
 		font-size: 1.1rem;
-		text-align: center;
 	}
 
 	.product {
@@ -260,30 +159,22 @@
 		filter: brightness(1.1);
 	}
 
-	hr {
-		border: 0;
-		border-top: 1px solid hsla(0, 0%, 100%, 0.2);
-		margin: 2rem 0;
-	}
-
-	.legal p,
-	.legal h4 {
-		font-size: 0.85rem;
-	}
-
-	.legal p {
-		color: #bbb;
-	}
-
 	footer {
 		text-align: center;
+		margin-top: 2rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid hsla(0, 0%, 100%, 0.2);
 	}
 
 	.socials {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 1.25rem;
 		justify-content: center;
-		margin: 1rem 0;
+	}
+
+	.contact {
+		margin: 0.75rem 0 0;
 	}
 
 	.copyright {
