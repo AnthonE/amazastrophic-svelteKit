@@ -6,27 +6,91 @@
 	const site = 'https://www.amazastrophic.com';
 	const title = 'Amazastrophic · the company behind Elo Pros';
 	const description =
-		'Amazastrophic makes multiplayer games and runs Elo Pros, a store for multiplayer games for people and AI agents alike.';
+		'Amazastrophic makes multiplayer games and runs Elo Pros, a store for multiplayer games for people and AI agents alike. Play Gates free in your browser.';
 	const year = new Date().getFullYear();
+
+	const socials = {
+		x: 'https://x.com/ELOPROS1337',
+		telegram: 'https://t.me/elopros4life',
+		discord: 'https://discord.gg/UYg2D3Yudm'
+	};
+
+	const jsonLd = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'Organization',
+				'@id': `${site}/#org`,
+				name: 'Amazastrophic',
+				alternateName: 'Amaza Corp',
+				url: `${site}/`,
+				logo: { '@type': 'ImageObject', url: `${site}/logo.png`, width: 430, height: 430 },
+				email: 'cs@amazastrophic.com',
+				description,
+				brand: { '@id': 'https://elopros.com/#store' }
+			},
+			{
+				'@type': 'OnlineStore',
+				'@id': 'https://elopros.com/#store',
+				name: 'Elo Pros',
+				url: 'https://elopros.com/',
+				description: 'A store for multiplayer games, for people and AI agents alike.',
+				parentOrganization: { '@id': `${site}/#org` },
+				sameAs: Object.values(socials)
+			},
+			{
+				'@type': 'VideoGame',
+				name: 'Gates',
+				url: 'https://elopros.com/games/gates/',
+				gamePlatform: 'Web browser',
+				playMode: 'MultiPlayer',
+				isAccessibleForFree: true,
+				publisher: { '@id': `${site}/#org` }
+			},
+			{
+				'@type': 'WebSite',
+				'@id': `${site}/#website`,
+				url: `${site}/`,
+				name: 'Amazastrophic',
+				inLanguage: 'en',
+				publisher: { '@id': `${site}/#org` }
+			}
+		]
+	};
+
+	// `<` escaped so the JSON can never close its own script tag
+	const jsonLdTag = `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</${'script'}>`;
 </script>
 
 <svelte:head>
 	<title>{title}</title>
 	<meta name="description" content={description} />
 	<meta name="author" content="Amazastrophic" />
-	<meta name="robots" content="index, follow" />
+	<meta name="robots" content="index, follow, max-image-preview:large" />
 	<link rel="canonical" href="{site}/" />
+	<link rel="alternate" type="text/plain" href="/llms.txt" title="Summary for AI agents" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:image" content="{site}/og.png" />
-	<meta property="og:image:alt" content="The Amaza Corp logo" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta
+		property="og:image:alt"
+		content="The Amaza Corp logo over a beach in Gates, with the words: Amazastrophic, the company behind Elo Pros."
+	/>
 	<meta property="og:url" content="{site}/" />
 	<meta property="og:site_name" content="Amazastrophic" />
 	<meta property="og:type" content="website" />
-	<meta name="twitter:card" content="summary" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content="{site}/og.png" />
+	<meta
+		name="twitter:image:alt"
+		content="The Amaza Corp logo over a beach in Gates, with the words: Amazastrophic, the company behind Elo Pros."
+	/>
+	{@html jsonLdTag}
 </svelte:head>
 
 <div id="background-video" aria-hidden="true" style:background-image="url({bgPoster})">
@@ -35,7 +99,7 @@
 
 <div class="panel">
 	<section class="intro">
-		<img src={amazacorp} alt="Amazastrophic logo" class="logo" />
+		<img src={amazacorp} alt="Amazastrophic logo" class="logo" width="125" height="125" />
 		<h1>Amazastrophic</h1>
 		<p class="tagline">We make multiplayer games and the store they live on.</p>
 	</section>
@@ -60,12 +124,21 @@
 		</p>
 	</section>
 
+	<section class="agents">
+		<h2>For agents</h2>
+		<p>
+			Elo Pros is built for AI agents as well as people. Start with
+			<a href="https://elopros.com/llms.txt">elopros.com/llms.txt</a>, or connect to the MCP server
+			at <code>https://elopros.com/mcp</code>.
+		</p>
+	</section>
+
 	<footer>
 		<nav class="socials" aria-label="Elo Pros elsewhere">
 			<a href="https://elopros.com">Elo Pros</a>
-			<a href="https://x.com/ELOPROS1337" rel="noopener noreferrer">X</a>
-			<a href="https://t.me/elopros4life" rel="noopener noreferrer">Telegram</a>
-			<a href="https://discord.gg/UYg2D3Yudm" rel="noopener noreferrer">Discord</a>
+			<a href={socials.x} rel="noopener noreferrer">X</a>
+			<a href={socials.telegram} rel="noopener noreferrer">Telegram</a>
+			<a href={socials.discord} rel="noopener noreferrer">Discord</a>
 		</nav>
 		<p class="contact"><a href="mailto:cs@amazastrophic.com">cs@amazastrophic.com</a></p>
 		<p class="copyright">© {year} Amazastrophic</p>
@@ -175,6 +248,11 @@
 
 	.contact {
 		margin: 0.75rem 0 0;
+	}
+
+	code {
+		font-size: 0.9em;
+		word-break: break-all;
 	}
 
 	.copyright {

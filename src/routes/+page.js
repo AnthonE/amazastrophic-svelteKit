@@ -1,3 +1,3 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
+// a static page with nothing interactive: prerender it and ship no JavaScript
 export const prerender = true;
+export const csr = false;

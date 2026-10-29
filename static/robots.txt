@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
+# Everyone welcome, people and agents alike.
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://www.amazastrophic.com/sitemap.xml
