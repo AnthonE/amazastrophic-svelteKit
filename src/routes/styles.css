@@ -32,12 +32,32 @@ body {
 
 h1,
 h2,
-p {
-	font-size: 0.75rem;
-	font-weight: 300;
+h3,
+h4 {
+	font-weight: 400;
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4rem;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+h4 {
+	font-size: 0.95rem;
+	margin-bottom: 0.25rem;
 }
 
 p {
+	font-size: 1rem;
 	line-height: 1.6;
 }
 
@@ -48,16 +68,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-h1 {
-	font-size: 1.10rem;
-	text-align: center;
-	
-}
-
-h2 {
-	font-size: 0.85rem;
 }
 
 pre {
