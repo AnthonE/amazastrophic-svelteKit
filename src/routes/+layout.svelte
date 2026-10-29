@@ -1,24 +1,13 @@
 <script>
-	import { browser } from '$app/environment';
-	import { page } from '$app/stores';
-
 	import './styles.css';
 
-	/** @type {import('./$types').LayoutServerData} */
-	export let data;
-
-	$: if (browser && data?.analyticsId) {
-		
-	}
+	let { children } = $props();
 </script>
 
 <div class="app">
-	
-
 	<main>
-		<slot />
+		{@render children()}
 	</main>
-
 </div>
 
 <style>
@@ -32,6 +21,7 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;
